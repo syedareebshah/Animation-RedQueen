@@ -29,7 +29,7 @@ jobs:
         cmd: install # will run `yarn install` command
         
     - name: Build React App
-      cmd: build 
+        cmd: build 
       
     - name: Install Surge
       run: npm install --global surge
